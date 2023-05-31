@@ -23,7 +23,7 @@ after_success:
   - docker push enkhtushig/multi-server
   - docker push enkhtushig/multi-worker
 
-  deploy:
+deploy:
     provider: elasticbeanstalk
     region: 'us-west-1'
     app: 'multi-docker'
